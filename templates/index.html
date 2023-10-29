@@ -1,0 +1,279 @@
+<html>
+
+<head>
+    <meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="title" content="김철수와 강유미의 청첩장">
+    <meta property="description" content="오셔서 축복해주세요">
+    <meta property="image" content="/static/c.jpg">
+
+    <meta property="og:title" content="김철수와 강유미의 청첩장">
+    <meta property="og:description" content="오셔서 축복해주세요">
+    <meta property="og:image" content="/static/c.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".gallery").slick({
+                adaptiveHeight: true
+            });
+
+            $(".gallery-image").click(function () {
+                let src = $(this).attr('src');
+                $("#modal-image").attr('src', src);
+                $("#exampleModal").modal('show');
+            });
+        });
+    </script>
+
+    <link rel="icon" href="/icon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+</head>
+<!-- slim은 slick을 사용 못함. jquery바꿔서 가지고 와야함 -->
+<!-- close버튼이 검은색인 이유는 배포했던 snippet코드가 모든 text들을 검은색으로 변경했기 때문에 -->
+
+<body>
+    <div class="container">
+        <div class="first">
+            <div class="overlay">
+                <div id="snow"></div>
+                <!-- overlay아래에 넣어야 눈이 잘보임 -->
+                <p class="first-top">
+                    김철수<br>
+                    &hearts;<br>
+                    강유미
+                </p>
+                <p class="first-bottom">2022.06.18 SAT PM 12:00</p>
+            </div>
+        </div>
+        <div class="row2">
+            <p>
+                <strong>초대합니다.</strong><br><br><br>
+                평생을 같이하고 싶은 사람을 만났습니다.<br><br><br>
+                서로 아껴주고 이해하며<br><br><br>
+                사랑을 베풀며 살고 싶습니다.<br><br><br>
+                저희 약속 위에 따뜻한 격려로 축복해 주셔서<br><br><br>
+                힘찬 출발의 디딤이 되어 주십시오.
+            </p>
+        </div>
+        <img src="/static/a.jpg">
+        <div class="row1">
+            <table class="intro">
+                <tbody>
+                    <tr>
+                        <td><strong>김미남 강유진</strong></td>
+                        <td><small>의 장남</small></td>
+                        <td>
+                            <strong>철수</strong>
+                            <a href="tel:01092859521">
+                                <svg style="width:15px;height:24px" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                                </svg>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>김영호 배윤정</strong></td>
+                        <td><small>의 장녀</small></td>
+                        <td>
+                            <strong>유미</strong>
+                            <a href="tel:01092859521">
+                                <svg style="width:15px;height:24px" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                                </svg>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row2">
+            <h3>6월 18일</h3>
+            <h5>오후 12시</h5>
+            <hr>
+            <!-- hr태그는 가로로 줄 하나를 만들어주는 태그, 구분선 -->
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <td class="sun">일</td>
+                        <td>월</td>
+                        <td>화</td>
+                        <td>수</td>
+                        <td>목</td>
+                        <td>금</td>
+                        <td class="sat">토</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="out">29</td>
+                        <td class="out">30</td>
+                        <td>31</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td class="sat">4</td>
+                    </tr>
+                    <tr>
+                        <td class="sun">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td class="sat">11</td>
+                    </tr>
+                    <tr>
+                        <td class="sun">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td class="sat">18</td>
+                    </tr>
+                    <tr>
+                        <td class="sun">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td class="sat">25</td>
+                    </tr>
+                    <tr>
+                        <td class="sun">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td class="out">1</td>
+                        <td class="out">2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>철수&hearts;유미의 결혼식이 {{diff}}일 남았습니다.</p>
+            <hr>
+        </div>
+        <div class="row1 guestbook-row">
+            <!-- 새 class를 지정, 여러개 class 지정할때는 띄어쓰기로 구분 -->
+            <h4>방명록 남기기</h4>
+            <form method="POST" action="/write" class="guestbook">
+                <input type="text" name="name" placeholder="이름">
+                <textarea rows="3" name="content" placeholder="내용"></textarea>
+                <button type="submit">남기기</button>
+            </form>
+            <table>
+                <tbody>
+                    {% for gb in guestbooks %}
+                    <tr>
+                        <td>{{ gb.name }}</td>
+                        <td class="content">{{ gb.content }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="pagination">
+                {% for p in pages %}
+                <a href="/?page={{ p }}">{{ p }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row2">
+            <h4>마음 전하실 곳</h4>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                신랑측 계좌번호
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <!-- 위에꺼 눌렀을 떄 나오는 부분. 즉 연결된 부분 -->
+                        <div class="card-body">
+                            XX은행 1000-000-1111-2
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                신부측 계좌번호
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            EE은행 1111-2222-3333-44
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row1">
+            <h4>찾아오시는 길</h4>
+            <div id="daumRoughmapContainer1674659400972" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+            <script charset="UTF-8" class="daum_roughmap_loader_script"
+                src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+            <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                    "timestamp": "1674659400972",
+                    "key": "2diht",
+                    "mapWidth": "640",
+                    "mapHeight": "360"
+                }).render();
+            </script>
+        </div>
+        <div class="row2">
+            <h4>갤러리</h4>
+            <div class="gallery">
+                <img src="/static/a.jpg" class="gallery-image">
+                <img src="/static/b.jpg" class="gallery-image">
+                <img src="/static/c.jpg" class="gallery-image">
+                <img src="/static/d.jpg" class="gallery-image">
+                <img src="/static/e.jpg" class="gallery-image">
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <img id="modal-image">
+                <div class="mymodal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/pureSnow.js"></script>
+</body>
+
+</html>
+
+<!-- script를 추가할때 바디 닫기 직전에 추가하는 경우도 있음 -->
+<!-- form태그는 html에서 백엔드 어떤 서버로 data를 전송할떄 사용하는 태그
+input태그는 검색할때 쓰는 태그, 이름 작성할떄 사용
+textarea 내용을 넣는 태그, row 3줄이니까 3줄만 씀 -->
+<!-- ctrl+a 는 전체 클릭
+shift+Alt+f 는 코드 정리 -->
